@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- roboto font-->
+    <!-- font awsome link-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+ integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!-- custom css-->
+    <link rel="stylesheet" href="./assets/css/custom_style.css">
+    <!-- custom resposive -->
+
+
+
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <title>Eurokon</title>
+  </head>
+
+<body>
+
+<!-- navbar -->
+  <!-- navbar -->
+<header class="fixed-top">
+<nav class="navbar navbar-expand-lg  ">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="./assets/img/logo.png" class="img-fluid" class="img-fluid" alt="logo"></a>
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <!-- <i class="fa fa-align-justify" style="font-size:36px;"></i> -->
+   <img src="assets/img/openmenu.png" alt="">
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item dropicon"> 
+          <a class="nav-link active" aria-current="page" href="product.html" >Products</a>
+          <ul class="sub-menu">
+            <li><a href="hings.html" > Hinges</a></li>
+            <li><a href="connectors_fitting.html">Connectors and Fittings</a></li>
+            <li><a href="#">Wood Connectors</a></li>
+            <li><a href="#">Wood Connectors</a></li>
+            <li><a href="#">Post Supports</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="downloads.html" >Downloads</a> 
+        </li>
+          <li class="nav-item dropicon">
+          <a class="nav-link" href="company.html" >Company</a>
+           <ul class="sub-menu">
+            <li><a href="#"> About Us</a></li>
+            <li><a href="#">Facilities</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="Competencies.html">Our Competences</a></li>
+          </ul>
+        </li>
+
+          <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+       
+      </ul>
+
+         <div class="search">
+          <span class="searchbox-icon searchbarlaptop"><img src="./assets/img/serach.svg" class="img-fluid" alt="serach icon"></span>
+               <form class="searchbox1">
+              <input type="search" placeholder="Search......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+              <input type="submit" class="searchbox-submit" value="GO">
+ 
+            </form>
+        </div>
+  </div>
+</nav>
+</header>
+<div class="headermargin"></div>
+
+
+    <!-- Modal -->
+<div class="searchmodels">
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+   <!--   <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>-->
+      <div class="modal-body">
+        <input type="text" placeholder="Search...">
+      </div>
+     
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+    <section style="background-image: url(assets/img/1.webp);" class="aa">
+        <div class="container">
+            <h2 class="product">Downloads</h2>
+        </div>
+    </section>
+    <div class=" container ">
+        <ul class="d-flex nav_hold">
+            <li> <a href="#"> Home > </a></li>
+            <li> <a href="#">Downloads</a></li>
+        </ul>
+    </div>
+    <section class="decleartion">
+        <div class="container">
+            <div class="decleartion_heading">
+                <!-- <h2>Declaration of Performance</h2> -->
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="hold_content">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Catalogues
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="acrdn">
+                                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-down"></i> Catalogue iron products</a>
+                                    <p>ETA-08/0165 </p>
+                                    <p>4 MB</p>
+                                </div>
+                                <div class="acrdn">
+                                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-down"></i> Catalogue profiles & sheets</a>
+                                    <p>ETA-08/0165 </p>
+                                    <p>4 MB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Bulding-Authority Approvals
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="acrdn">
+                                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-down"></i> GAH Angle Brackets</a>
+                                    <p>ETA-08/0165 </p>
+                                    <p>4 MB</p>
+                                </div>
+                                <div class="acrdn">
+                                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-down"></i> GAH Joist Hangers</a>
+                                    <p>ETA-08/0165 </p>
+                                    <p>4 MB</p>
+                                </div>
+                                <div class="acrdn">
+                                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-down"></i> GAH Post bases</a>
+                                    <p>ETA-08/0165 </p>
+                                    <p>4 MB</p>
+                                </div>
+                                <div class="acrdn">
+                                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-down"></i> GAH Cantilever brackets</a>
+                                    <p>ETA-08/0165 </p>
+                                    <p>4 MB</p>
+                                </div>
+                                <div class="acrdn">
+                                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-down"></i> GAH Purlin Ties</a>
+                                    <p>ETA-08/0165 </p>
+                                    <p>4 MB</p>
+                                </div>
+                                <div class="acrdn">
+                                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-down"></i> Declaration of performance Joist
+                                        Hangers</a>
+                                    <p>4 MB</p>
+                                </div>
+                                <div class="acrdn">
+                                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-down"></i> Declaration of performance
+                                        Cantilever brackets</a>
+                                    <p>4 MB</p>
+                                </div>
+                                <div class="acrdn">
+                                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-down"></i> Declaration of performance
+                                        perforated sheets</a>
+                                    <p>4 MB</p>
+                                </div>
+                                <div class="acrdn">
+                                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-down"></i> Declaration of performance Post
+                                        bases</a>
+                                    <p>4 MB</p>
+                                </div>
+                                <div class="acrdn">
+                                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-down"></i> Declaration of performance Purlin
+                                        Ties</a>
+                                    <p>4 MB</p>
+                                </div>
+                                <div class="acrdn">
+                                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-down"></i> Declaration of performance Angel
+                                        Brackets</a>
+                                    <p>4 MB</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- products -->
+    
+<section class="producoffer">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-12 col-sm-12 col-lg-md-9 col-lg-9 col-xl-9 col-xxl-9 ">
+        <div class="productcontent">
+         <span> <b>  2500+</b>  Products</span>  <p>We offer a wide range of high-quality products.</p>
+        </div>
+      </div>
+      <div class=" col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+        <div class="search"><input type="text" placeholder="Search Product..."></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+ <section class="footer">
+  <footer>
+    <div class="container">
+      <div class="row mobilelogo ">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-9 col-xxl-9">
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3"> 
+                <div class="footerlinks">
+                  <h5>Products</h5>
+                  <ul class="footermenu">
+                    <li> <a href="hings.html">hinges </a></li>
+                    <li> <a href="connectors_fitting.html">Connectors and Fittings </a></li>
+                    <li> <a href="#">wood connectors</a></li>
+                    <li> <a href="#">Post Supports</a></li>
+                    <li> <a href="#">Additional Products</a> </li>
+                  </ul>
+
+                </div>
+              </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3"> 
+                <div class="footerlinks">
+                  <h5>Company</h5>
+                  <ul class="footermenu">
+                    <li> <a href="company.html">About Us</a> </li>
+                    <li> <a href="company.html">History</a> </li>
+                    <li> <a href="company.html">Quality Managment</a> </li>
+                    <li> <a href="#">Career</a> </li>
+                  </ul>
+                </div>
+              </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3"> 
+                <div class="footerlinks">
+                  <h5>Quick Links</h5>
+                  <ul class="footermenu">
+                    <li> <a href="downloads.html">Downloads</a> </li>
+                    <li> <a href="contact.html">Contact Us</a> </li>
+                    <li> <a href="#">Terms and Conditions</a> </li>
+                  </ul>
+                </div>
+              </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3"> 
+                <div class="footerlinks ">
+                  <h5>Follow Us On</h5>
+                  <ul class="footermenu sociallinks">
+                    <li> <a  href="#"><img class="img-fluid" src="./assets/img/linkedin.png" alt="facebook"></a> </li>
+                    <li> <a  href="#"><img class="img-fluid" src="./assets/img/instagram.svg" alt="instagram"></a> </li>
+                    <li> <a  href="#"><img class="img-fluid" src="./assets/img/youtube.svg" alt="youtue"></a> </li>
+                    <li> <a  href="#"><img class="img-fluid" src="./assets/img/penseat.svg" alt="penseat"></a></li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12  col-lg-2 col-xl-3 col-xxl-3">
+          <div class="footerlogo">
+            <a href="index.html" >
+              <img src="./assets/img/footerlogo.png" alt="logo" class="img-fluid">
+            </a>
+            <p>Eurokon Global Exports Pvt. Ltd.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+</section>
+ <div class="fotterend">
+    <p>© Copyright 2022 Eurokon. All Right Reserved. Designed And Developed By <a href="https://ogrelogic.com/" target="_blank" >Ogrelogic</a> </p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- booostarap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- swipewr js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+      //   loop:true,
+      //  autoplay:{
+      //     delay:3000
+      //   },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+</body>
+
+</html>
